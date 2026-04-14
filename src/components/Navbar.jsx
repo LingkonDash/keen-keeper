@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useState } from 'react';
@@ -7,6 +8,7 @@ import { ImStatsDots } from 'react-icons/im';
 import { IoTimeOutline } from 'react-icons/io5';
 import { MdOutlineCancel } from 'react-icons/md';
 import { RiHome4Line, RiMenu3Fill } from 'react-icons/ri';
+import keenKeeper from '../assets/logo.png';
 
 const navItems = [
   { name: 'Home', path: '/', icon: RiHome4Line },
@@ -21,8 +23,9 @@ const Navbar = () => {
 
   return (
     <nav className='max-w-400 mx-auto flex justify-between items-center p-5 md:px-10 relative'>
-      <h1 className='font-bold text-2xl text-primary-text'>Keen<span className='font-semibold text-secondary-bg'>Keeper</span></h1>
-
+      <div>
+        <Image src={keenKeeper} alt='keenKeeperLogo' />
+      </div>
       <button onClick={() => setDropDown(!dropDown)} className='sm:hidden active:translate-y-[0.5px]'>
         {
           dropDown ? <MdOutlineCancel size={24}/> : <RiMenu3Fill size={20} />

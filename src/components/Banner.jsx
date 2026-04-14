@@ -5,8 +5,8 @@ const Banner = () => {
   return (
     <div className='max-w-400 mx-auto'>
       <div className='flex justify-center items-center flex-col text-center pt-28 p-5'>
-        <h2 className='font-bold text-5xl text-primary-text'>Friends to keep close in your life</h2>
-        <p className='text-secondary-text mt-4 mb-8 max-w-xl'>Your personal shelf of meaningful connections. Browse, tend, and nurture the
+        <h2 className='font-bold text-4xl md:text-5xl text-primary-text'>Friends to keep close in your life</h2>
+        <p className='text-secondary-text text-sm md:text-[1rem] mt-4 mb-8 max-w-lg md:max-w-xl'>Your personal shelf of meaningful connections. Browse, tend, and nurture the
           relationships that matter most.</p>
 
         <button className='btn bg-secondary-bg text-white'><FaPlus /> Add a Friend</button>

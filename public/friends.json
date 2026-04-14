@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "name": "Joydeep Bhattacharya",
+    "picture": "https://i.ibb.co.com/zWJVkXTz/Joydeep-samurai.jpg",
+    "email": "blindcode13@gmail.com",
+    "days_since_contact": 2956,
+    "status": "on-track",
+    "tags": ["best friend", "neighbor"],
+    "bio": "Best friend from childhood. We were neighbors and grew up together.",
+    "goal": 14,
+    "next_due_date": "2019-05-01"
+  },
+  {
+    "id": 2,
+    "name": "Fatema Tuz Zohura",
+    "picture": "https://i.ibb.co.com/Kxnf5fqR/image1.jpg",
+    "email": "fatematuzz@gmail.com",
+    "days_since_contact": 129,
+    "status": "on-track",
+    "tags": ["online", "programming hero"],
+    "bio": "Met online during Programming Hero course. Stayed connected through learning and coding discussions.",
+    "goal": 14,
+    "next_due_date": "2025-12-15"
+  },
+  {
+    "id": 3,
+    "name": "Lingkon Dash",
+    "picture": "https://i.ibb.co.com/WpFZzbTn/lingkon.png",
+    "email": "lingkon@gmail.com",
+    "days_since_contact": 54,
+    "status": "almost due",
+    "tags": ["office", "gym buddy"],
+    "bio": "Colleague from first job. We train together at the gym.",
+    "goal": 14,
+    "next_due_date": "2026-04-23"
+  },
+  {
+    "id": 4,
+    "name": "Sadia Karim",
+    "picture": "https://i.ibb.co.com/jZwsQmfg/picture5.jpg",
+    "email": "sadia.karim@gmail.com",
+    "days_since_contact": 41,
+    "status": "overdue",
+    "tags": ["university", "project partner"],
+    "bio": "Worked on multiple group projects together in university.",
+    "goal": 14,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 5,
+    "name": "Mahmudul Islam",
+    "picture": "https://i.ibb.co.com/TDsnVPVX/picture10.jpg",
+    "email": "mahmudul.islam@gmail.com",
+    "days_since_contact": 23,
+    "status": "almost due",
+    "tags": ["neighbor", "childhood friend"],
+    "bio": "Grew up in the same neighborhood. Played football every evening.",
+    "goal": 14,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 6,
+    "name": "Farhana Akter",
+    "picture": "https://i.ibb.co.com/KxJjDMBJ/picure11.jpg",
+    "email": "farhana.akter@gmail.com",
+    "days_since_contact": 751,
+    "status": "on-track",
+    "tags": ["office", "mentor"],
+    "bio": "Senior colleague who guided me during my internship.",
+    "goal": 14,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 7,
+    "name": "Rakib Hossain",
+    "picture": "https://i.ibb.co.com/WvNX0yZ9/picture6.jpg",
+    "email": "rakib.hossain@gmail.com",
+    "days_since_contact": 165,
+    "status": "overdue",
+    "tags": ["football", "teammate"],
+    "bio": "Teammate from local football club. Great striker.",
+    "goal": 14,
+    "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 8,
+    "name": "Jannatul Ferdous",
+    "picture": "https://i.ibb.co.com/9mRJnCtS/imgae3.jpg",
+    "email": "jannatul.ferdous@gmail.com",
+    "days_since_contact": 142,
+    "status": "almost due",
+    "tags": ["cousin", "family"],
+    "bio": "Cousin who lives in Chittagong. We catch up during holidays.",
+    "goal": 14,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 9,
+    "name": "Imran Kabir",
+    "picture": "https://i.ibb.co.com/3yny5c4g/imran.jpg",
+    "email": "imran.kabir@gmail.com",
+    "days_since_contact": 354,
+    "status": "on-track",
+    "tags": ["startup", "co-founder"],
+    "bio": "Co-founded a small startup together. Frequent strategy discussions.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 10,
+    "name": "Tasnim Ahmed",
+    "picture": "https://i.ibb.co.com/wF7jWMKC/karinmlsakdf.jpg",
+    "email": "tasnim.ahmed@gmail.com",
+    "days_since_contact": 194,
+    "status": "overdue",
+    "tags": ["debate club", "university"],
+    "bio": "Met in university debate club. Enjoys public speaking competitions.",
+    "goal": 14,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 11,
+    "name": "Arafat Rahman",
+    "picture": "https://i.ibb.co.com/FbpwnqgC/arafatnati.jpg",
+    "email": "arafat.rahman@gmail.com",
+    "days_since_contact": 188,
+    "status": "overdue",
+    "tags": ["college", "roommate"],
+    "bio": "Shared a dorm during university. Regular cricket partner.",
+    "goal": 14,
+    "next_due_date": "2026-03-28"
+  },
+  {
+    "id": 12,
+    "name": "Nusrat Jahan",
+    "picture": "https://i.ibb.co.com/GQ1fdsGp/last.jpg",
+    "email": "nusrat.jahan@yahoo.com",
+    "days_since_contact": 650,
+    "status": "almost due",
+    "tags": ["school", "close friend"],
+    "bio": "Close friend from high school. Loves photography and travel.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  }
+]
+
