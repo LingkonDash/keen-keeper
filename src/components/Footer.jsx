@@ -27,9 +27,9 @@ const Footer = () => {
 
       <div className='divider mx-5'></div>
 
-      <div className='grid gap-2 text-center md:grid-cols-2 text-gray-400'>
+      <div className='grid gap-2 md:text-left text-center md:grid-cols-2 text-gray-400'>
         <p>© 2026 KeenKeeper. All rights reserved.</p>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-around items-center'>
           <p>Privacy Policy</p>
           <p>Terms of Service</p>
           <p>Cookies</p>
