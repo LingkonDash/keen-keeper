@@ -5,8 +5,8 @@ const Card = ({ item }) => {
   return (
     <div className='p-6 w-80 sm:w-full mx-auto text-center space-y-3 bg-white shadow-sm rounded-lg flex justify-center items-center flex-col hover:-translate-y-1 hover:shadow-md cursor-pointer border transition-all border-transparent hover:border-blue-500'>
 
-      <div className='overflow-hidden w-25 h-25 bg-gray-300 rounded-full'>
-        <Image src={item.picture} alt={item.name} width={100} height={100} />
+      <div className='overflow-hidden w-25 h-25 bg-gray-300 rounded-full relative'>
+        <Image src={item.picture} alt={item.name} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className='object-cover' />
       </div>
 
       <div className='space-y-2'>
