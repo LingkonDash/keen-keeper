@@ -12,7 +12,7 @@ const TimeLineCard = ({ item }) => {
       </div>
 
       <div className='space-y-1'>
-        <p className='text-secondary-text'><span className='font-medium text-lg text-primary-text'>{item.type}</span> With with {item.person}</p>
+        <p className='text-secondary-text'><span className='font-medium text-lg text-primary-text'>{item.type}</span> With {item.person}</p>
         <p className='text-secondary-text'>{item.date}</p>
       </div>
     </div>

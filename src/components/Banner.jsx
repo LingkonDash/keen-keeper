@@ -1,6 +1,7 @@
 import { getData } from '@/data/getData';
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
+import InteractionData from './InteractionData';
 
 const Banner = async () => {
 
@@ -36,10 +37,10 @@ const Banner = async () => {
           <h3 className='font-semibold text-3xl text-secondary-bg'>{data.length - ontrack}</h3>
           <p className='text-secondary-text'>Need Attention</p>
         </div>
-        <div className='text-center p-8 bg-white rounded-lg shadow-sm'>
-          <h3 className='font-semibold text-3xl text-secondary-bg'>15</h3>
-          <p className='text-secondary-text'>Interactions This Month</p>
-        </div>
+
+        {/* this client component is for showing dynamic interaction in the banner section */}
+        <InteractionData />
+
       </div>
     </div>
   );

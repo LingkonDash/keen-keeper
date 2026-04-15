@@ -1,16 +1,14 @@
+import ActionButtons from '@/components/friendDetails/ActionButtons';
 import { getData } from '@/data/getData';
 import Image from 'next/image';
 import React from 'react';
-import { FiArchive, FiPhoneCall } from 'react-icons/fi';
+import { FiArchive } from 'react-icons/fi';
 import { HiOutlineBellSnooze } from 'react-icons/hi2';
-import { LuMessageSquareText } from 'react-icons/lu';
-import { MdOutlineVideocam } from 'react-icons/md';
 import { RiDeleteBin5Line } from 'react-icons/ri';
 
 const FriendDetails = async ({ params }) => {
 
   const { id } = await params;
-
   const data = await getData();
 
   const item = data.find(obj => obj.id === Number(id))
@@ -92,25 +90,9 @@ const FriendDetails = async ({ params }) => {
       </div>
 
       {/* last row */}
-      <div className='col-span-3 p-8 bg-white rounded-lg shadow-sm flex justify-between flex-col select-none gap-3'>
+      {/* Client Side component */}
 
-        <h2 className='font-medium text-xl text-primary-text'>Quick Check-In</h2>
-
-        <div className='grid grid-cols-3 gap-4 [&>div]:border [&_div]:font-medium [&_div]:text-primary-text  [&>div]:border-gray-200'>
-          <div className=' hover:bg-gray-200 shadow-sm bg-gray-100 cursor-pointer active:translate-y-[0.7px] rounded-md text-lg p-4 flex justify-center items-center flex-col'>
-            <FiPhoneCall size={18}/>
-            call
-          </div>
-          <div className=' hover:bg-gray-200 shadow-sm bg-gray-100 cursor-pointer active:translate-y-[0.7px] rounded-md text-lg p-4 flex justify-center items-center flex-col'>
-            <LuMessageSquareText size={18}/>
-            Text
-          </div>
-          <div className=' hover:bg-gray-200 shadow-sm bg-gray-100 cursor-pointer active:translate-y-[0.7px] rounded-md text-lg p-4 flex justify-center items-center flex-col'>
-            <MdOutlineVideocam size={24}/>
-            Video
-          </div>
-        </div>
-      </div>
+      <ActionButtons item={item} />
 
     </div>
   );
