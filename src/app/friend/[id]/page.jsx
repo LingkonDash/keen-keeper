@@ -76,7 +76,7 @@ const FriendDetails = async ({ params }) => {
       </div>
 
       {/* third row */}
-      <div className='col-span-3 md:col-span-2 flex justify-center items-center gap-3 flex-col [&>div]:cursor-pointer [&>div]:active:translate-y-[0.7px] [&>div]:hover:border-blue-500 [&>div]:border-transparent [&>div]:border'>
+      <div className='col-span-3 select-none md:col-span-2 flex justify-center items-center gap-3 flex-col [&>div]:cursor-pointer [&>div]:active:translate-y-[0.7px] [&>div]:hover:border-blue-500 [&>div]:border-transparent [&>div]:border'>
         <div className='text-center w-full py-4 bg-white rounded-md shadow-sm flex justify-center items-center gap-2 text-primary-text font-medium'>
           <HiOutlineBellSnooze size={20} />
           <p>Snooze 2 weeks</p>
