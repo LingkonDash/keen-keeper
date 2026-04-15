@@ -1,10 +1,10 @@
+import { getData } from '@/data/getData';
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
 
 const Banner = async () => {
 
-  const res = await fetch('http://localhost:3000/friends.json');
-  const data = await res.json();
+  const data = await getData();
 
   let ontrack = 0;
 

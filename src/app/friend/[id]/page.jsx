@@ -1,3 +1,4 @@
+import { getData } from '@/data/getData';
 import Image from 'next/image';
 import React from 'react';
 import { FiArchive, FiPhoneCall } from 'react-icons/fi';
@@ -10,10 +11,11 @@ const FriendDetails = async ({ params }) => {
 
   const { id } = await params;
 
-  const res = await fetch('http://localhost:3000/friends.json')
-  const data = await res.json();
+  const data = await getData();
 
-  const item = data.find(obj => obj.id === parseInt(id))
+  const item = data.find(obj => obj.id === Number(id))
+
+  if(!item) return <div className='h-screen flex justify-center items-center'>Friend does not exist with that id</div>
 
 
   return (
