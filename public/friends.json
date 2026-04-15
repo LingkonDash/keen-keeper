@@ -8,7 +8,7 @@
     "status": "on-track",
     "tags": ["best friend", "neighbor"],
     "bio": "Best friend from childhood. We were neighbors and grew up together.",
-    "goal": 14,
+    "goal": 4,
     "next_due_date": "2019-05-01"
   },
   {
@@ -32,7 +32,7 @@
     "status": "almost due",
     "tags": ["office", "gym buddy"],
     "bio": "Colleague from first job. We train together at the gym.",
-    "goal": 14,
+    "goal": 45,
     "next_due_date": "2026-04-23"
   },
   {
@@ -44,7 +44,7 @@
     "status": "overdue",
     "tags": ["university", "project partner"],
     "bio": "Worked on multiple group projects together in university.",
-    "goal": 14,
+    "goal": 44,
     "next_due_date": "2026-03-25"
   },
   {
@@ -56,7 +56,7 @@
     "status": "almost due",
     "tags": ["neighbor", "childhood friend"],
     "bio": "Grew up in the same neighborhood. Played football every evening.",
-    "goal": 14,
+    "goal": 13,
     "next_due_date": "2026-04-15"
   },
   {
@@ -68,7 +68,7 @@
     "status": "on-track",
     "tags": ["office", "mentor"],
     "bio": "Senior colleague who guided me during my internship.",
-    "goal": 14,
+    "goal": 12,
     "next_due_date": "2026-04-21"
   },
   {
@@ -80,7 +80,7 @@
     "status": "overdue",
     "tags": ["football", "teammate"],
     "bio": "Teammate from local football club. Great striker.",
-    "goal": 14,
+    "goal": 11,
     "next_due_date": "2026-04-01"
   },
   {
@@ -92,7 +92,7 @@
     "status": "almost due",
     "tags": ["cousin", "family"],
     "bio": "Cousin who lives in Chittagong. We catch up during holidays.",
-    "goal": 14,
+    "goal": 15,
     "next_due_date": "2026-04-16"
   },
   {
@@ -116,7 +116,7 @@
     "status": "overdue",
     "tags": ["debate club", "university"],
     "bio": "Met in university debate club. Enjoys public speaking competitions.",
-    "goal": 14,
+    "goal": 120,
     "next_due_date": "2026-03-30"
   },
   {
@@ -128,7 +128,7 @@
     "status": "overdue",
     "tags": ["college", "roommate"],
     "bio": "Shared a dorm during university. Regular cricket partner.",
-    "goal": 14,
+    "goal": 44,
     "next_due_date": "2026-03-28"
   },
   {
@@ -140,7 +140,7 @@
     "status": "almost due",
     "tags": ["school", "close friend"],
     "bio": "Close friend from high school. Loves photography and travel.",
-    "goal": 14,
+    "goal": 19,
     "next_due_date": "2026-04-18"
   }
 ]
