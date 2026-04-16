@@ -5,6 +5,7 @@ import { FiPhoneCall } from 'react-icons/fi';
 import { LuMessageSquareText } from 'react-icons/lu';
 import { MdOutlineVideocam } from 'react-icons/md';
 import { StateContext } from '../globalState/GlobalProvider';
+import { toast } from 'react-toastify';
 
 
 const ActionButtons = ({ item }) => {
@@ -22,6 +23,9 @@ const ActionButtons = ({ item }) => {
     localStorage.setItem('timeline', JSON.stringify([CallData, ...localData]));
 
     setLocalData([CallData, ...localData]);
+    
+    toast.success(`${id} With ${item.name}`)
+
   }
 
   return (
