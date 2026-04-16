@@ -2,12 +2,11 @@
 
 import { StateContext } from '@/components/globalState/GlobalProvider';
 import TimeLineCard from '@/components/timeline/TimeLineCard';
-import { timeLineData } from '@/data/initialTimelineData'
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useState } from 'react';
 
 const TimelinePage = () => {
 
-  const [localData, setLocalData] = useContext(StateContext)
+  const [localData] = useContext(StateContext)
 
   const [data, setData] = useState(localData);
 
