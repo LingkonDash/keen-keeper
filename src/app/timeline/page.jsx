@@ -2,13 +2,18 @@
 
 import { StateContext } from '@/components/globalState/GlobalProvider';
 import TimeLineCard from '@/components/timeline/TimeLineCard';
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 
 const TimelinePage = () => {
 
   const [localData] = useContext(StateContext)
 
-  const [data, setData] = useState(localData);
+  const [data, setData] = useState([]);
+
+  
+  useEffect(() => {
+    setData(localData);
+  }, [localData]);
 
 
   function handleSort(id) {
@@ -41,20 +46,22 @@ const TimelinePage = () => {
       </div>
 
       {
-        data.length === 0 ? localData.length === 0 ?
+        localData.length === 0 ? 
           <div>
-            <p className='text-lg text-secondary-text text-center mt-20'>No data found!</p>
+            <p className='text-lg text-secondary-text text-center mt-20'>
+              No data found!
+            </p>
           </div>
-          :
+         : data.length === 0 ? 
+          <div>
+            <p className='text-lg text-secondary-text text-center mt-20'>
+              No matching results!
+            </p>
+          </div>
+         : 
           <div className='mt-10 space-y-6'>
             {
-              localData.length !== 0 && localData.map((item, i) => <TimeLineCard key={i} item={item} />)
-            }
-          </div>
-          :
-          <div className='mt-10 space-y-6'>
-            {
-              data.length !== 0 && data.map((item, i) => <TimeLineCard key={i} item={item} />)
+              data.map((item, i) => (<TimeLineCard key={i} item={item} />))
             }
           </div>
       }
