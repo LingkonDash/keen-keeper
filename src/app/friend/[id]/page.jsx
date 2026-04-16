@@ -5,6 +5,7 @@ import React from 'react';
 import { FiArchive } from 'react-icons/fi';
 import { HiOutlineBellSnooze } from 'react-icons/hi2';
 import { RiDeleteBin5Line } from 'react-icons/ri';
+import friendNotFound from '../../../assets/App-Error.png'
 
 const FriendDetails = async ({ params }) => {
 
@@ -13,7 +14,13 @@ const FriendDetails = async ({ params }) => {
 
   const item = data.find(obj => obj.id === Number(id))
 
-  if(!item) return <div className='h-screen flex justify-center items-center'>Friend does not exist with that id</div>
+  if (!item) return <div className='h-[95vh] px-10 pb-25 pt-30 flex justify-center flex-col gap-5 items-center'>
+    <div>
+      <Image src={friendNotFound} width={460} height={500} alt='friend not found' />
+    </div>
+    <p className='font-medium md:text-xl text-center max-w-120'>Looks like this friendship link is broken. The page you are looking for
+        does not exist or has been moved.</p>
+  </div>
 
 
   return (
